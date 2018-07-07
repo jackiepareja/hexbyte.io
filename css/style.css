@@ -261,7 +261,7 @@ a, a:hover, a:active, a:focus {
 
 body {
     margin: 0;
-    background-color: #ed804a;
+    background-color: #6EB158;
     color: #1f1f1f;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -356,12 +356,12 @@ h6 {
 
 ::-moz-selection {
     color: #fff;
-    background: #ed804a;
+    background: #6EB158;
 }
 
 ::selection {
     color: #fff;
-    background: #ed804a;
+    background: #6EB158;
 }
 
 .flex-row {
@@ -965,7 +965,7 @@ h6 {
 }
 
 .menuBar .navbar-nav>li {
-    color: #ed804a;
+    color: #6EB158;
 }
 
 .menuBar .navbar-nav>li > a:hover,
@@ -981,7 +981,7 @@ h6 {
 
 .menuBar .navbar-nav>li > a:after,
 .menuBar .navbar-nav>li.active > a:after {
-    background-color: #ed804a;
+    background-color: #6EB158;
     bottom: 0;
     left: 0;
     right: 0;
@@ -1050,7 +1050,7 @@ h6 {
 
 .banner_text {
     position: absolute;
-    bottom: 190px;
+    bottom: 125px;
     width: 100%;
     left: 0;
 }
@@ -1061,7 +1061,7 @@ h6 {
 }
 
 .banner_slider .slick-1, .banner_slider .slick-2, .banner_slider .slick-3, .banner_slider .slick-4 {
-    background-image: url("http://placehold.it/1920x1280");
+    background-image: url("../images/hb-hero.jpg");
     background-size: cover;
     background-position: top right;
 }
@@ -1086,7 +1086,7 @@ h6 {
 
 .line_through {
     text-decoration: line-through;
-    color: #ed804a;
+    color: #6EB158;
 }
 
 .banner_text h1 {
@@ -1096,7 +1096,7 @@ h6 {
 }
 
 .banner_text h1 span {
-    color: #ed804a;
+    color: #6EB158;
 }
 
 .banner_text p {
@@ -1120,8 +1120,8 @@ h6 {
 }
 
 .banner_btns .filled-btn {
-    background-color: #ed804a;
-    border-color: #ed804a;
+    background-color: #6EB158;
+    border-color: #6EB158;
     padding: 13.5px 41px;
 }
 
@@ -1129,8 +1129,8 @@ h6 {
 .banner_btns a:active,
 .banner_btns a:focus {
     text-decoration: none;
-    background-color: #ed804a;
-    border-color: #ed804a;
+    background-color: #6EB158;
+    border-color: #6EB158;
 }
 
 .banner_btns .filled-btn:hover,
@@ -1208,7 +1208,7 @@ h6 {
 /* Choose */
 
 .fIcons {
-    color: #ed804a;
+    color: #6EB158;
     font-size: 40px;
 }
 
@@ -1234,7 +1234,7 @@ h6 {
     display: block;
     width: 30px;
     height: 2px;
-    background-color: #ed804a;
+    background-color: #6EB158;
     margin-bottom: 20px;
 }
 
@@ -1257,7 +1257,7 @@ h6 {
 }
 
 #loved {
-    background-image: url('http://placehold.it/1920x1100') ;
+    background-image: url('../images/loved-by.jpg') ;
     background-position: center;
     position: relative;
     height: 100%;
@@ -1284,7 +1284,7 @@ h6 {
 
 .loved .fIcons {
     font-size: 74px;
-    color: #ed804a;
+    color: #6EB158;
     margin-bottom: 40px;
     margin-top: 18px;
 }
@@ -1298,7 +1298,7 @@ h6 {
 
 .loved h4 span,
 .loved h5 span {
-    color: #ed804a;
+    color: #6EB158;
 }
 
 .loved h5 {
@@ -1323,7 +1323,7 @@ h6 {
 }
 
 .outBox .topOut {
-    border: 10px solid #ed804a;
+    border: 10px solid #6EB158;
     padding: 30px 40px;
 }
 
@@ -1351,7 +1351,7 @@ h6 {
 .progressBar .progress .progress-bar {
     border: 0;
     border-radius: 0;
-    background-color: #ed804a;
+    background-color: #6EB158;
     box-shadow: none;
     -webkit-transition: width 1.5s ease-in-out;
     transition: width 1.5s ease-in-out;
@@ -1386,7 +1386,7 @@ h6 {
 .box-progress-bar .bar {
     border: 0;
     border-radius: 0;
-    background-color: #ed804a;
+    background-color: #6EB158;
     box-shadow: none;
     -webkit-transition: width 1.5s ease-in-out;
     transition: width 1.5s ease-in-out;
@@ -1434,7 +1434,7 @@ h6 {
 .processTabs .nav-tabs>li.active>a span,
 .processTabs .nav-tabs>li.active>a:focus span,
 .processTabs .nav-tabs>li.active>a:hover span {
-    color: #ed804a;
+    color: #6EB158;
     border: 0;
     background-color: transparent;
 }
@@ -1459,7 +1459,7 @@ h6 {
 .processTabs .nav>li>a:focus span,
 .processTabs .nav>li>a:hover span {
     background-color: transparent;
-    color: #ed804a;
+    color: #6EB158;
 }
 
 .leftTab p {
@@ -1536,7 +1536,7 @@ h6 {
 
 .portfolio-filter > li > a:after,
 .portfolio-filter > li.active > a:after {
-    background-color: #ed804a;
+    background-color: #6EB158;
     bottom: 0;
     left: 0;
     right: 0;
@@ -1613,7 +1613,7 @@ h6 {
 
 .newsletter h6 {
     font-weight: 700;
-    color: #ed804a;
+    color: #6EB158;
     letter-spacing: 3.5px;
     margin-bottom: 36px;
 }
@@ -1659,8 +1659,8 @@ h6 {
 .subscribeForm .subscribeBtn:hover,
 .subscribeForm .subscribeBtn:active,
 .subscribeForm .subscribeBtn:focus {
-    background-color: #ed804a;
-    border-color: #ed804a;
+    background-color: #6EB158;
+    border-color: #6EB158;
 }
 
 
@@ -1758,7 +1758,7 @@ h6 {
 
 .teamInfo span {
     font-weight: 500;
-    color: #ed804a;
+    color: #6EB158;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -1802,20 +1802,21 @@ h6 {
     display: inline-block;
     width: 30px;
     height: 2px;
-    background-color: #ed804a;
+    background-color: #6EB158;
     margin: 35px auto 12px;
 }
 
 
 /* customer */
 .custparallax {
-    background-image: url('http://placehold.it/1920x1200');
+    background-image: url('../images/customers-say.jpg');
     background-attachment: fixed;
     background-position: top left;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: relative;
     height: 100%;
+    width:40%;
 }
 
 .customerBox {
@@ -1843,7 +1844,7 @@ h6 {
 }
 
 .custTest .custTitle {
-    border: 10px solid #ed804a;
+    border: 10px solid #6EB158;
     padding: 20.5px 40px;
     margin-bottom: 21px;
 }
@@ -2000,7 +2001,7 @@ h6 {
 }
 
 .blogBox h6 a:hover {
-    color: #ed804a;
+    color: #6EB158;
     text-decoration: none;
 }
 
@@ -2043,9 +2044,9 @@ h6 {
 .viewBlog:hover,
 .viewBlog:active,
 .viewBlog:focus {
-    background-color: #ed804a;
+    background-color: #6EB158;
     color: #fff;
-    border-color: #ed804a;
+    border-color: #6EB158;
     text-decoration: none;
 }
 
@@ -2064,7 +2065,7 @@ h6 {
     display: block;
     width: 30px;
     height: 2px;
-    background-color: #ed804a;
+    background-color: #6EB158;
     margin: 8px 0 22px;
 }
 
@@ -2087,7 +2088,7 @@ h6 {
 .address h6 a:hover,
 .address h6 a:active,
 .address h6 a:focus {
-    color: #ed804a;
+    color: #6EB158;
     text-decoration: none;
 }
 
@@ -2129,7 +2130,7 @@ h6 {
 .formBox .submitBtn:hover,
 .formBox .submitBtn:active,
 .formBox .submitBtn:focus {
-    background-color: #ed804a;
+    background-color: #6EB158;
     text-decoration: none;
     color: #ffffff;
 }
@@ -2167,7 +2168,7 @@ h6 {
 }
 
 .footer .copyright a {
-    color: #ed804a;
+    color: #6EB158;
     text-decoration: none;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -2216,7 +2217,7 @@ h6 {
 .socialLinks li a:hover i,
 .socialLinks li a:active i,
 .socialLinks li a:focus i {
-    color: #ed804a;
+    color: #6EB158;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -2236,7 +2237,7 @@ h6 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     overflow: hidden;
     white-space: nowrap;
-    background: #ed804a;
+    background: #6EB158;
     visibility: hidden;
     opacity: 0;
     -webkit-transition: all 0.3s ease-out;
