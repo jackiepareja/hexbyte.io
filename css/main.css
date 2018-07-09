@@ -15,3 +15,29 @@ FOOTER
 #site-main>div>#footer>div.container>div.row>div.col-lg-4.col-md-4.col-sm-4.col-xs-12.no-padding.wow.fadeInUp.animated>div.foot_middle>a>img{
     width:4rem;
 }
+#site-main>footer#footer.bg-black.pad-top-60.pad-bottom-60.footer>div.container>div.row>div.col-lg-4.col-md-4.col-sm-4.col-xs-12.no-padding.wow.fadeInUp.animated>div.foot_middle>a>img{
+    width:4rem;
+}
+
+/*=============
+WORK
+===============*/
+div#site-main.work-site>header#header{
+    background-color:#1F1F1F;
+}
+div#site-main.work-site>section#work.pad-top-120.pad-bottom-120.bg-white.btm-brdr.process{
+    margin-top:10rem;
+}
+
+/*=============
+TEAM
+===============*/
+div#site-main.team-site>header#header{
+    background-color:#1F1F1F;
+}
+div#site-main.team-site>section#team.pad-top-120.pad-bottom-120.bg-offwhite.team>div.container>div.row>header.col-lg-12.col-md-12.col-sm-12.col-xs-12.wow.fadeInUp.animated{
+    margin-top:10rem;
+}
+#team>div>div>article>div.teamslider.owl-carousel.owl-theme.owl-loaded>div.owl-stage-outer>div.owl-stage>div.owl-item.active>div.item>div.teamInfo{
+    padding:20px;
+}
