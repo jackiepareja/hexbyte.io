@@ -261,7 +261,7 @@ a, a:hover, a:active, a:focus {
 
 body {
     margin: 0;
-    background-color: #6EB158;
+    background-color: #159F85;
     color: #1f1f1f;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -356,12 +356,12 @@ h6 {
 
 ::-moz-selection {
     color: #fff;
-    background: #6EB158;
+    background: #159F85;
 }
 
 ::selection {
     color: #fff;
-    background: #6EB158;
+    background: #159F85;
 }
 
 .flex-row {
@@ -965,7 +965,7 @@ h6 {
 }
 
 .menuBar .navbar-nav>li {
-    color: #6EB158;
+    color: #159F85;
 }
 
 .menuBar .navbar-nav>li > a:hover,
@@ -981,7 +981,7 @@ h6 {
 
 .menuBar .navbar-nav>li > a:after,
 .menuBar .navbar-nav>li.active > a:after {
-    background-color: #6EB158;
+    background-color: #159F85;
     bottom: 0;
     left: 0;
     right: 0;
@@ -1060,8 +1060,23 @@ h6 {
     min-height: 800px;
 }
 
-.banner_slider .slick-1, .banner_slider .slick-2, .banner_slider .slick-3, .banner_slider .slick-4 {
+.banner_slider .slick-1{
     background-image: url("../images/hb-hero.jpg");
+    background-size: cover;
+    background-position: top right;
+}
+.banner_slider .slick-2{
+    background-image: url("../images/hb-hero2.jpg");
+    background-size: cover;
+    background-position: top right;
+}
+.banner_slider .slick-3{
+    background-image: url("../images/hb-hero3.jpg");
+    background-size: cover;
+    background-position: top right;
+}
+.banner_slider .slick-4{
+    background-image: url("../images/hb-hero4.jpg");
     background-size: cover;
     background-position: top right;
 }
@@ -1086,7 +1101,7 @@ h6 {
 
 .line_through {
     text-decoration: line-through;
-    color: #6EB158;
+    color: #159F85;
 }
 
 .banner_text h1 {
@@ -1096,7 +1111,7 @@ h6 {
 }
 
 .banner_text h1 span {
-    color: #6EB158;
+    color: #159F85;
 }
 
 .banner_text p {
@@ -1120,8 +1135,8 @@ h6 {
 }
 
 .banner_btns .filled-btn {
-    background-color: #6EB158;
-    border-color: #6EB158;
+    background-color: #159F85;
+    border-color: #159F85;
     padding: 13.5px 41px;
 }
 
@@ -1129,8 +1144,8 @@ h6 {
 .banner_btns a:active,
 .banner_btns a:focus {
     text-decoration: none;
-    background-color: #6EB158;
-    border-color: #6EB158;
+    background-color: #159F85;
+    border-color: #159F85;
 }
 
 .banner_btns .filled-btn:hover,
@@ -1208,7 +1223,7 @@ h6 {
 /* Choose */
 
 .fIcons {
-    color: #6EB158;
+    color: #159F85;
     font-size: 40px;
 }
 
@@ -1234,7 +1249,7 @@ h6 {
     display: block;
     width: 30px;
     height: 2px;
-    background-color: #6EB158;
+    background-color: #159F85;
     margin-bottom: 20px;
 }
 
@@ -1284,7 +1299,7 @@ h6 {
 
 .loved .fIcons {
     font-size: 74px;
-    color: #6EB158;
+    color: #159F85;
     margin-bottom: 40px;
     margin-top: 18px;
 }
@@ -1298,7 +1313,7 @@ h6 {
 
 .loved h4 span,
 .loved h5 span {
-    color: #6EB158;
+    color: #159F85;
 }
 
 .loved h5 {
@@ -1323,7 +1338,7 @@ h6 {
 }
 
 .outBox .topOut {
-    border: 10px solid #6EB158;
+    border: 10px solid #159F85;
     padding: 30px 40px;
 }
 
@@ -1351,7 +1366,7 @@ h6 {
 .progressBar .progress .progress-bar {
     border: 0;
     border-radius: 0;
-    background-color: #6EB158;
+    background-color: #159F85;
     box-shadow: none;
     -webkit-transition: width 1.5s ease-in-out;
     transition: width 1.5s ease-in-out;
@@ -1386,7 +1401,7 @@ h6 {
 .box-progress-bar .bar {
     border: 0;
     border-radius: 0;
-    background-color: #6EB158;
+    background-color: #159F85;
     box-shadow: none;
     -webkit-transition: width 1.5s ease-in-out;
     transition: width 1.5s ease-in-out;
@@ -1434,7 +1449,7 @@ h6 {
 .processTabs .nav-tabs>li.active>a span,
 .processTabs .nav-tabs>li.active>a:focus span,
 .processTabs .nav-tabs>li.active>a:hover span {
-    color: #6EB158;
+    color: #159F85;
     border: 0;
     background-color: transparent;
 }
@@ -1459,7 +1474,7 @@ h6 {
 .processTabs .nav>li>a:focus span,
 .processTabs .nav>li>a:hover span {
     background-color: transparent;
-    color: #6EB158;
+    color: #159F85;
 }
 
 .leftTab p {
@@ -1536,7 +1551,7 @@ h6 {
 
 .portfolio-filter > li > a:after,
 .portfolio-filter > li.active > a:after {
-    background-color: #6EB158;
+    background-color: #159F85;
     bottom: 0;
     left: 0;
     right: 0;
@@ -1613,7 +1628,7 @@ h6 {
 
 .newsletter h6 {
     font-weight: 700;
-    color: #6EB158;
+    color: #159F85;
     letter-spacing: 3.5px;
     margin-bottom: 36px;
 }
@@ -1659,8 +1674,8 @@ h6 {
 .subscribeForm .subscribeBtn:hover,
 .subscribeForm .subscribeBtn:active,
 .subscribeForm .subscribeBtn:focus {
-    background-color: #6EB158;
-    border-color: #6EB158;
+    background-color: #159F85;
+    border-color: #159F85;
 }
 
 
@@ -1758,7 +1773,7 @@ h6 {
 
 .teamInfo span {
     font-weight: 500;
-    color: #6EB158;
+    color: #159F85;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -1802,7 +1817,7 @@ h6 {
     display: inline-block;
     width: 30px;
     height: 2px;
-    background-color: #6EB158;
+    background-color: #159F85;
     margin: 35px auto 12px;
 }
 
@@ -1844,7 +1859,7 @@ h6 {
 }
 
 .custTest .custTitle {
-    border: 10px solid #6EB158;
+    border: 10px solid #159F85;
     padding: 20.5px 40px;
     margin-bottom: 21px;
 }
@@ -2001,7 +2016,7 @@ h6 {
 }
 
 .blogBox h6 a:hover {
-    color: #6EB158;
+    color: #159F85;
     text-decoration: none;
 }
 
@@ -2044,9 +2059,9 @@ h6 {
 .viewBlog:hover,
 .viewBlog:active,
 .viewBlog:focus {
-    background-color: #6EB158;
+    background-color: #159F85;
     color: #fff;
-    border-color: #6EB158;
+    border-color: #159F85;
     text-decoration: none;
 }
 
@@ -2065,7 +2080,7 @@ h6 {
     display: block;
     width: 30px;
     height: 2px;
-    background-color: #6EB158;
+    background-color: #159F85;
     margin: 8px 0 22px;
 }
 
@@ -2088,7 +2103,7 @@ h6 {
 .address h6 a:hover,
 .address h6 a:active,
 .address h6 a:focus {
-    color: #6EB158;
+    color: #159F85;
     text-decoration: none;
 }
 
@@ -2130,7 +2145,7 @@ h6 {
 .formBox .submitBtn:hover,
 .formBox .submitBtn:active,
 .formBox .submitBtn:focus {
-    background-color: #6EB158;
+    background-color: #159F85;
     text-decoration: none;
     color: #ffffff;
 }
@@ -2168,7 +2183,7 @@ h6 {
 }
 
 .footer .copyright a {
-    color: #6EB158;
+    color: #159F85;
     text-decoration: none;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -2217,7 +2232,7 @@ h6 {
 .socialLinks li a:hover i,
 .socialLinks li a:active i,
 .socialLinks li a:focus i {
-    color: #6EB158;
+    color: #159F85;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -2237,7 +2252,7 @@ h6 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     overflow: hidden;
     white-space: nowrap;
-    background: #6EB158;
+    background: #159F85;
     visibility: hidden;
     opacity: 0;
     -webkit-transition: all 0.3s ease-out;
