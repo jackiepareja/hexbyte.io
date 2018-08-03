@@ -5,7 +5,7 @@ NAVIGATION
 ===============*/
 div#site-main>header#header.float-panel>div.container-fluid>div.row>div.col-lg-3.col-md-3.col-sm-3.col-xs-8>div.logo>a>img,
 div#site-main.work-site>header#header.float-panel>div.container-fluid>div.row>div.col-lg-3.col-md-3.col-sm-3.col-xs-8>div.logo>a>img{
-    width:6rem;
+    width:20%;
 }
 div#site-main>header#header.float-panel>div.container-fluid>div.row>div.col-lg-9.col-md-8.col-sm-9.main-menu>div.menuBar.jumplinks{
     padding:2rem 15px;
@@ -43,3 +43,4 @@ div#site-main.team-site>section#team.pad-top-120.pad-bottom-120.bg-offwhite.team
 #team>div>div>article>div.teamslider.owl-carousel.owl-theme.owl-loaded>div.owl-stage-outer>div.owl-stage>div.owl-item.active>div.item>div.teamInfo{
     padding:20px;
 }
+

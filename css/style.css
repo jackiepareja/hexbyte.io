@@ -2288,3 +2288,13 @@ h6 {
 
 
 /* back to top css */
+
+/*=============
+RESPONSIVE
+===============*/
+@media screen and (max-width: 450px) {
+    #customer>div>div>div.col-lg-6.col-md-6.col-sm-12.col-xs-12.custparallax{
+        width:100%;
+    }
+
+}
