@@ -369,7 +369,7 @@
         margin-bottom: 0;
     }
     .navbar-default .navbar-toggle .icon-bar {
-        background-color: #159F85;
+        background-color: #159F85 !important;
         width: 35px;
     }
     .navbar-toggle .icon-bar+.icon-bar {
