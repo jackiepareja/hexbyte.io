@@ -2,7 +2,7 @@
 if(isset($_POST['email'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "jackie@hexbyte.io";
+    $email_to = "pareja.jackie@gmail.com";
     $email_subject = "New Subscriber to add to the list";
 
     function died($error) {
@@ -18,14 +18,14 @@ if(isset($_POST['email'])) {
     // validation expected data exists
     if(!isset($_POST['email'])
         {
-        died('We are sorry, but there appears to be a problem with the form you submitted.');       
+        died('We are sorry, but there appears to be a problem with the form you submitted.');
     }
 
 
 
-    
+
     $email_from = $_POST['email']; // required
-    
+
 
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
@@ -47,15 +47,15 @@ if(isset($_POST['email'])) {
 
 
 
-    
+
     $email_message .= "Email: ".clean_string($email_from)."\n";
-   
+
 
     // create email headers
     $headers = 'From: '.$email_from."\r\n".
         'Reply-To: '.$email_from."\r\n" .
         'X-Mailer: PHP/' . phpversion();
-    @mail($email_to, $email_subject, $email_message, $headers);  
+    @mail($email_to, $email_subject, $email_message, $headers);
 ?>
 
 <!-- include your own success html here -->
