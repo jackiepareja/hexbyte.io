@@ -2,7 +2,7 @@
 if(isset($_POST['email'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "jackie@hexbyte.io";
+    $email_to = "pareja.jackie@gmail.com";
     $email_subject = "Hexbyte Client Lead";
 
     function died($error) {
@@ -21,7 +21,7 @@ if(isset($_POST['email'])) {
        !isset($_POST['subject']) ||
        !isset($_POST['telephone']) ||
        !isset($_POST['message'])) {
-        died('We are sorry, but there appears to be a problem with the form you submitted.');       
+        died('We are sorry, but there appears to be a problem with the form you submitted.');
     }
 
 
@@ -77,7 +77,7 @@ if(isset($_POST['email'])) {
     $headers = 'From: '.$email_from."\r\n".
         'Reply-To: '.$email_from."\r\n" .
         'X-Mailer: PHP/' . phpversion();
-    @mail($email_to, $email_subject, $email_message, $headers);  
+    @mail($email_to, $email_subject, $email_message, $headers);
 ?>
 
 <!-- include your own success html here -->
