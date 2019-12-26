@@ -1,6 +1,6 @@
 /*------------------------------------------------------------------
 [Table of contents]
-1.  css reset 
+1.  css reset
   1.1 HTML5 display-role reset for older browsers
   1.2 grid.css
 2. global css
@@ -1621,7 +1621,7 @@ h6 {
     text-align: center;
 }
 
-.newsletter .fIcons {    
+.newsletter .fIcons {
     margin-top: 18px;
     margin-bottom: 30px;
 }
@@ -1977,7 +1977,7 @@ h6 {
     position: absolute;
     width: 100%;
     top: 50%;
-    left: 0;    
+    left: 0;
     z-index: 0;
 }
 
@@ -2155,15 +2155,15 @@ h6 {
 }
 
 .formBox input:-moz-placeholder, .formBox textarea:-moz-placeholder {
-   color: #898989;  
+   color: #898989;
 }
 
-.formBox input::-moz-placeholder, .formBox textarea::-moz-placeholder {  
-   color: #898989;  
+.formBox input::-moz-placeholder, .formBox textarea::-moz-placeholder {
+   color: #898989;
 }
 
-.formBox input:-ms-input-placeholder, .formBox textarea:-ms-input-placeholder {  
-   color: #898989;  
+.formBox input:-ms-input-placeholder, .formBox textarea:-ms-input-placeholder {
+   color: #898989;
 }
 
 .foot_middle a img {
@@ -2228,7 +2228,7 @@ h6 {
 
 .socialLinks li a:hover,
 .socialLinks li a:active,
-.socialLinks li a:focus, 
+.socialLinks li a:focus,
 .socialLinks li a:hover i,
 .socialLinks li a:active i,
 .socialLinks li a:focus i {
