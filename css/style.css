@@ -307,6 +307,15 @@ h6 {
     padding-bottom: 103px;
 }
 
+.pad-top-team {
+    padding-top: 220px;
+}
+
+.pad-bottom-team {
+    padding-bottom: 220px;
+}
+
+
 .pad-top-60 {
     padding-top: 60px;
 }
@@ -1707,9 +1716,10 @@ h6 {
 .teamInfo {
     text-align: center;
     background-color: #ffffff;
+    opacity: 0.8;
     padding: 35px;
     position: absolute;
-    bottom: 105px;
+    bottom: 90px;
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
